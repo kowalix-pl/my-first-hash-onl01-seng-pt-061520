@@ -1,4 +1,4 @@
-require 'pry'
+
 def my_hash
  hash = {"name"=>"Martin Scorceze"}
 end
@@ -37,7 +37,6 @@ def adding
 
   # return the shipping_manifest hash below
   
-  binding.pry
   shipping_manifest
   
 end
