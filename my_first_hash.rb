@@ -36,6 +36,8 @@ def adding
   shipping_manifeest["gun powder"] = "4"
 
   # return the shipping_manifest hash below
-  shipping_manifest
+  
   binding.pry
+  shipping_manifest
+  
 end
