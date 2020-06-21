@@ -1,3 +1,4 @@
+require 'pry'
 def my_hash
  hash = {"name"=>"Martin Scorceze"}
 end
@@ -32,8 +33,9 @@ def adding
 
   # add 4 gun powder to the shipping_manifest hash below
 
-
+  shipping_manifeest["gun powder"] = "4"
 
   # return the shipping_manifest hash below
-
+  shipping_manifest
+  binding.pry
 end
